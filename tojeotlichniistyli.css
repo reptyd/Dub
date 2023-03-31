@@ -1,0 +1,168 @@
+body {
+  background-image: url(https://haruproject.space/assets/images/bg.gif);
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+li {
+  font-size: 30px;
+  color: #080;
+}
+li:hover {
+  color: #aa5;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+main {
+  display: block;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+}
+p, h1 {
+  color: #fff;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0px;
+}
+.bigImage {
+  display:block;
+  position: relative;
+  width: 100%;
+  background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.smallImages {
+  display: block;
+  position: relative;
+  width: 300px;
+}
+.smallImages > div {
+  display: block;
+  position: relative;
+  height: 200px;
+  background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  display: block;
+  position: relative;
+  background-color:rgb(139, 120, 120);
+  width: 200px;
+  padding-left: 30px;
+}
+.header {
+  display: block;
+  background-color: wheat;
+  width: 100%;
+  z-index: 2;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+.header_text div {
+  background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.header_text  {
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.margin-top {
+  margin-top: 100px;
+}
+.textImg {
+  background-color: rgb(60, 30, 94);
+  text-align: center;
+}
+.list > div {
+  background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+.list {
+  display: block;
+  position: absolute;
+  width: 250px;
+}
+.content {
+  display: flex;
+  margin-top: 50px;
+}
+.header_list {
+  display: flex;
+  gap: 10px;
+}
+.header_list button { 
+  width: 140px;
+  height: 20px;
+}
+.logo {
+  background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin-left: -660px;
+  margin-top: 5px;
+}
+.nameBackground {
+  display: flex;
+  flex-direction: column;
+}
+.nameBackground div {
+  width: 350px;
+  height: 100px;
+  background-color: rgb(56, 6, 6);
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.list_discription {
+  display: flex;
+  justify-content: center;
+}
+.nameBackground h3 {
+  margin-left: 150px;
+  margin-top: 10px;
+  color: #fff;
+}
+.nameBackground p {
+  margin-left: 150px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.nameBackground h4 {
+  margin-left: 300px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #fff;
+}
+h5 {
+  border: 1px solid black;
+}
