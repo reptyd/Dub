@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 li {
+  list-style-type: none;
+  text-decoration: none;
+}
+li {
   font-size: 30px;
   color: #080;
 }
@@ -20,8 +24,15 @@ main {
   display: block;
   position: relative;
   width: 900px;
-  height: 600px;
+  height: 1650px;
   margin: 0 auto;
+}
+footer {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
 }
 p, h1 {
   color: #fff;
@@ -77,13 +88,13 @@ p, h1 {
   top: 0;
   left: 0;
 }
-.header_text div {
+.headerText div {
   background-image: url(https://memepedia.ru/wp-content/uploads/2022/10/mudroe-tainstvennoe-derevo-mem-9-1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
 }
-.header_text  {
+.headerText  {
 display: flex;
 justify-content: center;
 gap: 40px;
@@ -113,11 +124,11 @@ gap: 40px;
   display: flex;
   margin-top: 50px;
 }
-.header_list {
+.headerList {
   display: flex;
   gap: 10px;
 }
-.header_list button { 
+.headerList button { 
   width: 140px;
   height: 20px;
 }
@@ -130,7 +141,7 @@ gap: 40px;
   width: 40px;
   display: block;
   margin-left: -660px;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 .nameBackground {
   display: flex;
@@ -143,7 +154,7 @@ gap: 40px;
   margin-bottom: 0px;
   margin-top: 20px;
 }
-.list_discription {
+.listDiscription {
   display: flex;
   justify-content: center;
 }
@@ -163,6 +174,31 @@ gap: 40px;
   font-size: 17px;
   color: #fff;
 }
-h5 {
-  border: 1px solid black;
+.showMore {
+  display: flex;
+  background-color: white;
+  margin-top: 50px;
+  height: 120px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.showMore p {
+  color: black;
+}
+.nav {
+  display: flex;
+  background-color: #868686;
+  position: relative;
+  margin-bottom:220px;
+  justify-content: center;
+  gap: 200px;
+}
+.anyData {
+  background-color: antiquewhite;
+  display: flex;
+  position: relative;
+  height: 100px;
+  margin-top: -220px;
 }
